@@ -1,0 +1,6 @@
+a=(9,2,3)
+print((5,)+a[1:])
+b = list(a)
+b.sort()
+a = tuple(b)
+print(a)
